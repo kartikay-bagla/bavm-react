@@ -1,0 +1,216 @@
+{
+  "home": {
+    "hero": {
+      "slides": [
+        {
+          "image": "/images/home/1.jpg",
+          "headline": "Committed to Legal Excellence",
+          "subheadline": "Dedicated advocates delivering rigorous representation across forums."
+        },
+        {
+          "image": "/images/home/2.jpg",
+          "headline": "Strategic Insight, Global Outlook",
+          "subheadline": "Meticulous legal counsel for complex cross-border matters."
+        },
+        {
+          "image": "/images/home/3.jpg",
+          "headline": "Every Brief, Every Detail",
+          "subheadline": "Clear, responsive guidance from advisory to litigation."
+        },
+        {
+          "image": "/images/home/4.jpg",
+          "headline": "Your Legal Partners",
+          "subheadline": "Building lasting relationships through trust and results."
+        }
+      ]
+    },
+    "welcome": {
+      "title": "Welcome to BAVM",
+      "text": "BAVM is an association of lawyers practicing in the Supreme Court, High Courts, Tribunals, CESTAT, PMLA, Settlement Commission, National Company Law Tribunal, National Company Law Appellate Tribunal, National Green Tribunal and other Forums. The foundation of BAVM has been laid under the guidance of Late Mr. R. K. Garg (Former Judge) & Late Mr. P. N. Awasthi (Advocate) who mentored us and gave a vision."
+    },
+    "about": {
+      "title": "More About Us",
+      "text": "We, assist our clients in the areas of Advisory, Litigation and Research, Legal Opinions (Consultation), in the domains of GST, Customs, Central Excise, Service Tax, FEMA, Money Laundering, Environment and other matters with our utmost effort to deliver the best before the respective Forums."
+    },
+    "features": {
+      "feature_list": [
+        "Attention To Case Details",
+        "Client Focused Attitude",
+        "Seamless Solutions",
+        "Unwavering Commitment",
+        "Technical Proficiency",
+        "Legal Efficiency"
+      ],
+      "backgroundImage": "/images/home/5.jpg"
+    },
+    "practiceAreas": {
+      "title": "Practice Areas",
+      "areas": [
+        {
+          "name": "Indirect Taxes",
+          "image": "/images/home/practice-areas/indirect-tax.jpg"
+        },
+        {
+          "name": "Corporate Insolvency and Restructuring",
+          "image": "/images/home/practice-areas/insolvency.jpg"
+        },
+        {
+          "name": "Employment and Industrial Relations",
+          "image": "/images/home/practice-areas/industrial.jpg"
+        },
+        {
+          "name": "Corporate and Commercial Advisory",
+          "image": "/images/home/practice-areas/commercial.jpg"
+        },
+        {
+          "name": "Environment",
+          "image": "/images/home/practice-areas/environment.jpg"
+        },
+        {
+          "name": "Intellectual Property",
+          "image": "/images/home/practice-areas/intellectual-property.jpg"
+        }
+      ]
+    },
+    "keyPeople": {
+      "title": "Key People",
+      "people": [
+        {
+          "name": "Bipin Garg",
+          "title": "Advocate",
+          "image": "/images/bipin_garg.jpg",
+          "content": "Mr. Bipin Garg, the founder, has vast experience of 40 years in the fields of Central Excise, Service Tax, Customs and Import-Export with a strong foundation in civil and criminal laws. He is an active member of different Bar Associations. He was awarded Scroll of Honour by International Council of Jurists, All India Bar Association, All India Senior Advocates Association and Indian Council of Jurists. He is frequently invited to participate in various forums for delivering lectures relating to his subjects, particularly the subjects such as budget changes, etc."
+        },
+        {
+          "name": "Amit Awasthi",
+          "title": "Advocate",
+          "image": "/images/amit_awasthi-1.png",
+          "content": "Mr. Amit Awasthi is practicing for past 25 years with prowess in upcoming law regarding Goods & Services Tax as an indirect tax structure in India, Service Tax, Central Excise, Customs, Money Laundering, DGFT (Import-Export), FEMA, Economic Offences and cases relating to GAFTA i.e. Grain and Free Trade Organisation, an international organisation for promoting international trade."
+        },
+        {
+          "name": "Mayank Garg",
+          "title": "Advocate",
+          "image": "/images/mayank_garg.png",
+          "content": "A young and dynamic advocate practicing law since the year 2007. After graduating as Bachelor of Laws from Symbiosis International University, Law School, Pune, he did his Masters from UCLA Law School, Los Angeles, California, USA with concentration in Business Law and Policy. He was awarded Dean’s Scholarship in UCLA. After completing degree of Masters of Law he has been practicing before different Forums."
+        },
+        {
+          "name": "Neera Gupta",
+          "title": "Advocate",
+          "image": "/images/neera-gupta.png",
+          "content": "A practicing advocate on Central Excise & Service Tax since the year 1985. She has been conducting cases relating to Central Excise & Service Tax at original and appellate forums. She has expertise in the cases relating to Sugar & Distillery Industries."
+        },
+        {
+          "name": "Mansi Garg",
+          "title": "Advocate",
+          "image": "/images/mansi_garg.png",
+          "content": "Ms. Mansi Garg, after graduating in Commerce and Law and completing her Masters in Law, started practicing law as an advocate since the year 2009 before the Madhya Pradesh High Court. After completing her training in mediation by Madhya Pradesh State Legal Authority in the year 2011 she has conducted several mediation cases in High Court as well as District Courts. She was appointed as Advocate Commissioner by High Court and has also participated in Consultation on Amendment of Juvenile Justice (Care and Protection of Children) Act 2000 and its Amendment Act 2006 organized by the National Institute of Public Cooperation and Child Development, Indore. She specializes in drafting of objections, appeals, petitions and research on subject relating to indirect and allied taxes."
+        },
+        {
+          "name": "Sangeeta Mishra",
+          "title": "Advocate",
+          "image": "/images/mansi_garg-1.png",
+          "content": "She completed her Masters in (Business law), Practicing since 2006 at Kanpur, Lucknow, Nagpur and Delhi in the matters relating to Indirect Tax (GST), Custom, IBC Act, Debts due to Banks & Financial Institutions, Property related matters, Industrial & Labour related matters, and other matters of Civil Nature. Also work for NGO’s as a Legal Counsel. Standing Counsel for Central Board of Indirect Taxes and Customs (CBIC) for handling cases pertaining to Indirect Tax before High Court of Mumbai at Nagpur Bench, NCLT, NCLAT and other fora. Standing Counsel for Employees Provident Fund Organisation (EPFO) for handling cases before NCLT, CGIT, DCDRF, SCDRC, NCDRC, DRT and Lower & District Courts."
+        },
+        {
+          "name": "Stuti Saggi",
+          "title": "Advocate",
+          "image": "/images/stuti_saggi.png",
+          "content": "She has completed her law in 2011, she has completed her master’s in Energy Laws from University of Petroleum and Energy Sciences and has done her P.G. Diploma Course in Alternative Dispute Resolution (Proximate Education) from the International Centre for Alternative Dispute Resolution, NALSAR Hyderabad (2012). Stuti has more than 10 (ten) years of experience in advising clients on day-to-day litigation matters related to direct/indirect tax (including matters related to GST, Customs and Income tax). She is particularly experienced in representing clients on forums including at Tribunals and High court of Judicature at Allahabad. Primarily, her area of work relates to general ligation matters (civil) and indirect taxation and matters listed before Customs, Excise, and Service Tax Appellate Tribunal, Debt Recovery Appellate Tribunal, Income Tax Appellate Tribunals, and High Courts. She is particularly skilled in providing end to end legal advice which includes drafting writ petitions, replies and other subsequent document(s)."
+        },
+        {
+          "name": "Jwaria Kainaat",
+          "title": "Advocate",
+          "image": "/images/jwaria_kainaat.png",
+          "content": "A practicing advocate in Indirect Tax such as GST, Central Excise & Service Tax since 2018. Also dealing with Customs related cases. Before Consumer Forum, NGT, Family Matters Counseling, Documentation."
+        },
+        {
+          "name": "V. K. Agrawal",
+          "title": "Member CESTAT (Retd.)",
+          "image": "/images/vk_agrawal.jpg",
+          "content": "A former member of Customs, Central Excise & Service Tax Tribunal, Mr. V. K. Agrawal I.R.S., joined the Indian Customs & Excise Services in the year 1967 and held the posts of Commissioner, Commissioner (Appeals). After his superannuation, he is actively involved in law practice as an advocate and consultant in Excise, Customs and Service Tax matters since the year 2005. He topped the University in LL.B and LL.M and was awarded gold medals. He served as Chairman of Committee for Simplification of Excise Procedures and was awarded Certificate for “Distinguished record of service” on Republic Day, 1998 by the President of India."
+        },
+        {
+          "name": "Hari Om Tiwari",
+          "title": "Commissioner - C Ex. & ST (Retd.)",
+          "image": "/images/hari_om_tiwari.png",
+          "content": "Mr. Hari Om Tiwari I.R.S. is Former Vice Chairman of Customs, Central Excise & Service Tax Settlement Commission of Mumbai Bench. He graduated in Economics from University of Delhi and held the posts of Chief Commissioner of Central Excise, Service Tax and Customs, Mumbai and Director General of Service Tax. With the rich experience in administration of Customs, Central Excise and Service Tax, after superannuation, he is actively practicing law as an Advocate since the year 2005."
+        },
+        {
+          "name": "S.P. Ojha",
+          "title": "Superintendent - C Ex. & ST (Retd.)",
+          "image": "/images/sp_ojha.png",
+          "content": "Mr. S.P. Ojha has served the Central Excise Department in different capacities and has retired as Superintendent Central Excise in the year 1995. He has a vast procedural experience relating to Central Excise, Customs & Service Tax. He was honoured for his performance and dedication to the department. He was given several rewards for detection of evasion of duty and seizure of smuggled goods including gold. After retirement, he is providing consultancy services in Uttar Pradesh, Jharkhand & Chattisgarh and is regularly appearing before all the authorities of the department and also before CESTAT at New Delhi, Kolkata & Mumbai."
+        }
+      ]
+    },
+    "clients": {
+      "title": "Our Clients",
+      "logos": [
+        "/images/clientlogo7.png",
+        "/images/clientlogo8.png",
+        "/images/clientlogo11.png",
+        "/images/clientlogo12.png",
+        "/images/clientlogo14.png"
+      ]
+    },
+    "news": {
+      "title": "News Section",
+      "articles": [
+        {
+          "title": "Great Relief for Taxpayers – Reduction in Pre-deposit for Penalty-only Appeals under GST",
+          "date": "November 6, 2025",
+          "text": "In a major relief for taxpayers, the Government has reduced the pre-deposit requirement for filing appeals in penalty-only cases under GST. Pursuant to the GST Council’s 55th Meeting recommendations, the Finance Act, 2025 amended Sections 107(6) and 112(8) of the CGST Act to lower the pre-deposit from 25% to 10% for appeals before the Appellate Authority, and to prescribe an additional 10% for appeals before the Appellate Tribunal. The amendment, effective 1 October 2025, ensures fair access to justice and eases the compliance burden on small taxpayers and individuals."
+        },
+        {
+          "title": "Department for Revenue amended the Notification by inserting conditions and eligibility for taking input tax credit under Section 16 and Section 148 of the CGST Act",
+          "date": "October 20, 2023",
+          "text": ""
+        }
+      ]
+    },
+    "publications": {
+      "title": "Articles and Publications",
+      "articles": [
+        {
+          "title": "CESTAT F.O. of M/s Agarwal Builders",
+          "date": "May 28, 2025"
+        },
+        {
+          "title": "CESTAT F.O. of Meenu Builders and Nahar Singh",
+          "date": "May 9, 2025"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "About Bavm Legal",
+      "text": "BAVM is an association of lawyers practicing in the Supreme Court, High Courts, Tribunals, CESTAT, PMLA, Settlement Commission, National Company Law Tribunal, National Company Law Appellate Tribunal, National Green Tribunal and other Forums. The foundation of BAVM has been laid under the guidance of Late Mr. R. K. Garg (Former Judge) & Late Mr. P. N. Awasthi (Advocate) who mentored us and gave a vision."
+    },
+    "explore": {
+      "title": "Explore Our Site",
+      "links": [
+        "Home",
+        "Company Profile",
+        "Key People",
+        "Contact Us",
+        "Important Links"
+      ]
+    },
+    "offices": {
+      "corporate": {
+        "title": "Corporate Office",
+        "location": "Delhi"
+      },
+      "branch": {
+        "title": "Branch Office",
+        "locations": [
+          "Kanpur",
+          "Allahbad",
+          "Nagpur"
+        ]
+      }
+    },
+    "disclaimer": "The Rules of the Bar Council of India prohibit the lawyers to advertise themselves. This website is meant only for informational purposes and not for advertising. It should not be interpreted as advertisement of any nature whatsoever. We are not at all responsible for decisions taken by the reader based solely on the information provided in the website. In case, the reader of this website has any legal issues, he/she must seek independent legal advice. By continuing to browse the website the visitor accepts and acknowledges that the information provided in the website does not amount to advertisement or solicitation and is meant only for his/her understanding about our activities and who we are."
+  }
+}
