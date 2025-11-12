@@ -77,6 +77,7 @@ const Header = () => {
                   href={href}
                   className="inline-flex items-center text-primary hover:text-secondary"
                 >
+                  <i className={`fas ${href.startsWith('mailto:') ? 'fa-envelope-square' : 'fa-phone-alt'} mr-1`}></i>
                   {label}
                 </a>
               ))}
@@ -112,6 +113,7 @@ const Header = () => {
                 href={href}
                 className="text-center text-primary hover:text-secondary"
               >
+                <i className={`fas ${href.startsWith('mailto:') ? 'fa-envelope-square' : 'fa-phone-alt'} mr-1`}></i>
                 {label}
               </a>
             ))}

@@ -212,5 +212,41 @@
       }
     },
     "disclaimer": "The Rules of the Bar Council of India prohibit the lawyers to advertise themselves. This website is meant only for informational purposes and not for advertising. It should not be interpreted as advertisement of any nature whatsoever. We are not at all responsible for decisions taken by the reader based solely on the information provided in the website. In case, the reader of this website has any legal issues, he/she must seek independent legal advice. By continuing to browse the website the visitor accepts and acknowledges that the information provided in the website does not amount to advertisement or solicitation and is meant only for his/her understanding about our activities and who we are."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "corporateOffice": {
+      "title": "Corporate Office",
+      "address": "B1-1289/A, Vasant Kunj<br />Behind Fortis Hospital<br />New Delhi – 110070",
+      "phone": "+91 98101 30562",
+      "email": "contact@bavm.legal",
+      "mapUrl": "https://maps.google.com/maps?q=BAVM%20Legal%20Vasant%20Kunj&t=m&z=10&output=embed&iwloc=near"
+    },
+    "branchOffices": {
+      "title": "Branch Offices",
+      "offices": [
+        {
+          "name": "Kanpur",
+          "address": "H-1, First Floor, 7/116-A,<br />Radhey Apartment, Swaroop Nagar,<br />Kanpur - 208002",
+          "phone": "+91 99355 22596",
+          "email": "kanpur@bavm.legal",
+          "mapUrl": "https://maps.google.com/maps?q=BAVM%20Legal%20Kanpur&t=m&z=10&output=embed&iwloc=near"
+        },
+        {
+          "name": "Nagpur",
+          "address": "Plot No.108, A Wing, First Floor,<br />Uma Apartment, Pandey Layout,<br />Nagpur - 440015 (M.S.)",
+          "phone": "+91 90289 84064",
+          "email": "nagpur@bavm.legal",
+          "mapUrl": "https://maps.google.com/maps?q=BAVM%20Legal%20Nagpur&t=m&z=10&output=embed&iwloc=near"
+        },
+        {
+          "name": "Allahabad",
+          "address": "1/8 Akashpuri Colony, Ashok Nagar,<br />Muir Road near Baba Halwai Chauraha,<br />Allahabad - 211001",
+          "phone": "+91 96161 10420",
+          "email": "allahabad@bavm.legal",
+          "mapUrl": "https://maps.google.com/maps?q=BAVM%20Legal%2C%20%20Allahabad%20-%20211001&t=m&z=10&output=embed&iwloc=near"
+        }
+      ]
+    }
   }
 }
