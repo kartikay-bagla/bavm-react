@@ -7,7 +7,27 @@ import { useState } from 'react';
 const NAV_LINKS = [
   { href: '/company-profile', label: 'Company Profile' },
   { href: '/key-people', label: 'Key People' },
-  { href: '/practice-areas', label: 'Practice Areas' },
+  {
+    href: '/practice-areas',
+    label: 'Practice Areas',
+    sublinks: [
+      {
+        href: '/practice-areas/indirect-taxes',
+        label: 'Indirect Taxes',
+        sublinks: [
+          { href: '/practice-areas/indirect-taxes/customs', label: 'Customs' },
+          { href: '/practice-areas/indirect-taxes/fema', label: 'FEMA' },
+          { href: '/practice-areas/indirect-taxes/gst', label: 'GST' },
+          { href: '/practice-areas/indirect-taxes/money-laundering', label: 'Money Laundering' },
+        ],
+      },
+      { href: '/practice-areas/corporate-insolvency-and-restructuring', label: 'Corporate Insolvency and Restructuring' },
+      { href: '/practice-areas/employment-and-industrial-relations', label: 'Employment and Industrial Relations' },
+      { href: '/practice-areas/corporate-and-commercial-advisory', label: 'Corporate and Commercial Advisory' },
+      { href: '/practice-areas/environment', label: 'Environment' },
+      { href: '/practice-areas/intellectual-property', label: 'Intellectual Property' },
+    ],
+  },
   { href: '/important-links', label: 'Important Links' },
   { href: '/careers', label: 'Careers' },
   { href: '/contact-us', label: 'Contact Us' },
@@ -45,6 +65,7 @@ const MOBILE_NAV_LINKS = [
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
   return (
     <header className="bg-white shadow-md">
@@ -83,10 +104,32 @@ const Header = () => {
               ))}
             </div>
             <nav className="flex flex-wrap justify-end gap-6 text-sm lg:text-base">
-              {NAV_LINKS.map(({ href, label }) => (
-                <Link key={href} href={href} className="text-primary hover:text-secondary">
-                  {label}
-                </Link>
+              {NAV_LINKS.map(({ href, label, sublinks }) => (
+                <div key={href} className="relative group">
+                  <Link href={href} className="text-primary hover:text-secondary">
+                    {label}
+                  </Link>
+                  {sublinks && (
+                    <div className="absolute z-10 hidden group-hover:block bg-white shadow-md">
+                      {sublinks.map((sublink) => (
+                        <div key={sublink.href} className="relative group">
+                          <Link href={sublink.href} className="block px-4 py-2 text-primary hover:bg-gray-100">
+                            {sublink.label}
+                          </Link>
+                          {sublink.sublinks && (
+                            <div className="absolute z-10 hidden group-hover:block bg-white shadow-md" style={{ left: '100%', top: 0 }}>
+                              {sublink.sublinks.map((nestedSublink) => (
+                                <Link key={nestedSublink.href} href={nestedSublink.href} className="block px-4 py-2 text-primary hover:bg-gray-100">
+                                  {nestedSublink.label}
+                                </Link>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
               ))}
             </nav>
           </div>
@@ -136,19 +179,37 @@ const Header = () => {
                 id="mobile-nav-links"
                 className="mt-3 flex flex-col items-center space-y-2 text-sm"
               >
-                {MOBILE_NAV_LINKS.map(({ href, label, variant }) => (
-                  <Link
-                    key={href}
-                    href={href}
-                    className={
-                      variant === 'cta'
-                        ? 'w-full rounded bg-secondary px-4 py-2 text-center font-semibold text-black hover:bg-primary hover:text-white transition-colors'
-                        : 'w-full text-center text-primary hover:text-secondary'
-                    }
-                    onClick={() => setMenuOpen(false)}
-                  >
-                    {label}
-                  </Link>
+                {MOBILE_NAV_LINKS.map(({ href, label, variant, sublinks }) => (
+                  <div key={href} className="w-full">
+                    <button
+                      type="button"
+                      onClick={() => setOpenDropdown(openDropdown === href ? null : href)}
+                      className="flex w-full items-center justify-center text-primary hover:text-secondary"
+                    >
+                      <Link href={href} className="w-full text-center">
+                        {label}
+                      </Link>
+                      {sublinks && (
+                        <span className={`transform transition-transform ${openDropdown === href ? 'rotate-180' : ''}`}>
+                          ▾
+                        </span>
+                      )}
+                    </button>
+                    {openDropdown === href && sublinks && (
+                      <div className="flex flex-col items-center space-y-2 pl-4">
+                        {sublinks.map((sublink) => (
+                          <Link
+                            key={sublink.href}
+                            href={sublink.href}
+                            className="w-full text-center text-primary hover:text-secondary"
+                            onClick={() => setMenuOpen(false)}
+                          >
+                            {sublink.label}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 ))}
               </nav>
             )}
