@@ -48,27 +48,33 @@
       "areas": [
         {
           "name": "Indirect Taxes",
-          "image": "/images/home/practice-areas/indirect-tax.jpg"
+          "image": "/images/home/practice-areas/indirect-tax.jpg",
+          "slug": "indirect-taxes"
         },
         {
           "name": "Corporate Insolvency and Restructuring",
-          "image": "/images/home/practice-areas/insolvency.jpg"
+          "image": "/images/home/practice-areas/insolvency.jpg",
+          "slug": "corporate-insolvency-and-restructuring"
         },
         {
           "name": "Employment and Industrial Relations",
-          "image": "/images/home/practice-areas/industrial.jpg"
+          "image": "/images/home/practice-areas/industrial.jpg",
+          "slug": "employment-and-industrial-relations"
         },
         {
           "name": "Corporate and Commercial Advisory",
-          "image": "/images/home/practice-areas/commercial.jpg"
+          "image": "/images/home/practice-areas/commercial.jpg",
+          "slug": "corporate-and-commercial-advisory"
         },
         {
           "name": "Environment",
-          "image": "/images/home/practice-areas/environment.jpg"
+          "image": "/images/home/practice-areas/environment.jpg",
+          "slug": "environment"
         },
         {
           "name": "Intellectual Property",
-          "image": "/images/home/practice-areas/intellectual-property.jpg"
+          "image": "/images/home/practice-areas/intellectual-property.jpg",
+          "slug": "intellectual-property"
         }
       ]
     },
