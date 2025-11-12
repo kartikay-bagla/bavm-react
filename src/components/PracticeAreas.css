@@ -1,0 +1,100 @@
+.practice-areas-section {
+  padding: 5rem 2rem;
+  background-color: white;
+}
+
+.practice-areas-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.practice-areas-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.practice-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 2.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.practice-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border-color: #d4af37;
+}
+
+.practice-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.practice-card h3 {
+  font-size: 1.6rem;
+  color: #8b0000;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.practice-card p {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.learn-more {
+  color: #d4af37;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.practice-card:hover .learn-more {
+  text-decoration: underline;
+}
+
+@media (max-width: 968px) {
+  .practice-areas-section {
+    padding: 3rem 1.5rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .section-subtitle {
+    font-size: 1rem;
+  }
+  
+  .practice-areas-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .practice-card {
+    padding: 2rem;
+  }
+}

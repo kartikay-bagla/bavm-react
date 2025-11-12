@@ -1,0 +1,72 @@
+.clients-section {
+  padding: 5rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.clients-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.clients-carousel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.client-card {
+  background: white;
+  border-radius: 8px;
+  padding: 3rem 2rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.client-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.client-logo {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.client-card h4 {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+@media (max-width: 968px) {
+  .clients-section {
+    padding: 3rem 1.5rem;
+  }
+  
+  .clients-carousel {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .client-card {
+    padding: 2rem 1.5rem;
+  }
+  
+  .client-logo {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,148 @@
+.practice-area-page {
+  min-height: 100vh;
+}
+
+.practice-hero {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  color: white;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.practice-hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.practice-icon-large {
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+.practice-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.practice-hero p {
+  font-size: 1.3rem;
+  color: #d4af37;
+}
+
+.practice-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.practice-main h2 {
+  font-size: 2rem;
+  color: #8b0000;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+.practice-main h2:first-child {
+  margin-top: 0;
+}
+
+.practice-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 3rem;
+}
+
+.services-list li {
+  font-size: 1.1rem;
+  padding: 1rem 1.5rem;
+  background: #f9f9f9;
+  margin-bottom: 0.75rem;
+  border-left: 4px solid #d4af37;
+  transition: all 0.3s;
+}
+
+.services-list li:hover {
+  background: #fff;
+  border-left-color: #8b0000;
+  transform: translateX(5px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta-section {
+  background: linear-gradient(135deg, #8b0000 0%, #a00000 100%);
+  color: white;
+  padding: 3rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.cta-section h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #d4af37;
+  color: #1a1a1a;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #f0c952;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4);
+}
+
+@media (max-width: 768px) {
+  .practice-hero {
+    padding: 3rem 1.5rem;
+  }
+  
+  .practice-icon-large {
+    font-size: 3.5rem;
+  }
+  
+  .practice-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .practice-hero p {
+    font-size: 1.1rem;
+  }
+  
+  .practice-content {
+    padding: 3rem 1.5rem;
+  }
+  
+  .practice-main h2 {
+    font-size: 1.6rem;
+  }
+  
+  .cta-section {
+    padding: 2rem 1.5rem;
+  }
+  
+  .cta-section h3 {
+    font-size: 1.5rem;
+  }
+}
