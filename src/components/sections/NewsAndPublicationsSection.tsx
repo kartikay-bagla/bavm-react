@@ -1,14 +1,17 @@
 import Link from "next/link";
 
 type NewsArticle = {
+  id: string;
   title: string;
   date: string;
   text?: string;
 };
 
 type PublicationArticle = {
+  id: string;
   title: string;
   date: string;
+  text?: string;
 };
 
 type NewsAndPublicationsSectionProps = {
@@ -39,16 +42,15 @@ export default function NewsAndPublicationsSection({ news, publications }: NewsA
             <h2 className="text-center font-serif text-2xl font-bold text-primary">{news.title}</h2>
             <div className="flex flex-1 flex-col gap-4">
               {news.articles.map((article) => (
-                <article
-                  key={article.title}
-                  className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-lg"
-                >
-                  <h3 className="mb-2 text-left font-serif text-xl font-bold text-primary">{article.title}</h3>
-                  <p className="mb-3 text-sm text-gray-500">{article.date}</p>
-                  {article.text && (
-                    <p className="leading-relaxed text-gray-600">{truncateText(article.text)}</p>
-                  )}
-                </article>
+                <Link key={article.id} href={`/news/${article.id}`}>
+                  <article className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-lg cursor-pointer">
+                    <h3 className="mb-2 text-left font-serif text-xl font-bold text-primary">{article.title}</h3>
+                    <p className="mb-3 text-sm text-gray-500">{article.date}</p>
+                    {article.text && (
+                      <p className="leading-relaxed text-gray-600">{truncateText(article.text)}</p>
+                    )}
+                  </article>
+                </Link>
               ))}
             </div>
             <Link href="/news" className="mt-auto block">
@@ -62,13 +64,15 @@ export default function NewsAndPublicationsSection({ news, publications }: NewsA
             <h2 className="text-center font-serif text-2xl font-bold text-primary">{publications.title}</h2>
             <div className="flex flex-1 flex-col gap-4">
               {publications.articles.map((article) => (
-                <article
-                  key={article.title}
-                  className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-lg"
-                >
-                  <h3 className="mb-2 text-left font-serif text-xl font-bold text-primary">{article.title}</h3>
-                  <p className="text-sm text-gray-500">{article.date}</p>
-                </article>
+                <Link key={article.id} href={`/publications/${article.id}`}>
+                  <article className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-lg cursor-pointer">
+                    <h3 className="mb-2 text-left font-serif text-xl font-bold text-primary">{article.title}</h3>
+                    <p className="mb-3 text-sm text-gray-500">{article.date}</p>
+                    {article.text && (
+                      <p className="leading-relaxed text-gray-600">{truncateText(article.text)}</p>
+                    )}
+                  </article>
+                </Link>
               ))}
             </div>
             <Link href="/publications" className="mt-auto block">

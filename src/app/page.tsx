@@ -6,6 +6,8 @@ import NewsAndPublicationsSection from '../components/sections/NewsAndPublicatio
 import PracticeAreasSection from '../components/sections/PracticeAreasSection';
 import WelcomeAboutSection from '../components/sections/WelcomeAboutSection';
 import content from '../content.json';
+import newsData from '../data/news.json';
+import publicationsData from '../data/publications.json';
 
 export default function Home() {
   const home = content.home;
@@ -35,20 +37,41 @@ export default function Home() {
     title: string;
     logos: string[];
   };
-  const news = home.news as {
-    title: string;
-    articles: {
-      title: string;
-      date: string;
-      text?: string;
-    }[];
+  // Get the 2 most recent posts from each section
+  const sortedNews = [...newsData].sort((a, b) => 
+    new Date(b.upload_time).getTime() - new Date(a.upload_time).getTime()
+  ).slice(0, 2);
+  
+  const sortedPublications = [...publicationsData].sort((a, b) => 
+    new Date(b.upload_time).getTime() - new Date(a.upload_time).getTime()
+  ).slice(0, 2);
+
+  const news = {
+    title: "News Section",
+    articles: sortedNews.map(item => ({
+      id: item.id,
+      title: item.title,
+      date: new Date(item.upload_time).toLocaleDateString('en-US', { 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric' 
+      }),
+      text: item.description
+    }))
   };
-  const publications = home.publications as {
-    title: string;
-    articles: {
-      title: string;
-      date: string;
-    }[];
+  
+  const publications = {
+    title: "Articles and Publications",
+    articles: sortedPublications.map(item => ({
+      id: item.id,
+      title: item.title,
+      date: new Date(item.upload_time).toLocaleDateString('en-US', { 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric' 
+      }),
+      text: item.description
+    }))
   };
 
   return (
