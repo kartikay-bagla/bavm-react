@@ -13,7 +13,7 @@ export default async function NewsDetailPage(props: { params: Promise<{ id: stri
 
   return (
     <div className="container mx-auto px-4 py-16">
-      <div className="mx-auto max-w-4xl">
+      <div className="mx-auto max-w-6xl">
         <Link 
           href="/news" 
           className="mb-6 inline-block text-primary font-semibold hover:underline"

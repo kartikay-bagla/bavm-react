@@ -9,7 +9,7 @@ export default function NewsPage() {
   return (
     <div className="container mx-auto px-4 py-16">
       <h1 className="mb-8 text-center font-serif text-4xl font-bold text-primary">News Section</h1>
-      <div className="mx-auto max-w-4xl space-y-6">
+      <div className="mx-auto max-w-6xl grid grid-cols-1 gap-6">
         {sortedNews.map((article) => (
           <Link key={article.id} href={`/news/${article.id}`}>
             <article className="rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition-shadow duration-200 hover:shadow-lg cursor-pointer">
