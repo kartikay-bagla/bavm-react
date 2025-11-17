@@ -27,11 +27,23 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-lg font-bold mb-4 text-white">{content.footer.offices.corporate.title}</h3>
-            <p className="text-gray-300">{content.footer.offices.corporate.location}</p>
+            <Link
+              href="/offices/delhi"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              {content.footer.offices.corporate.location}
+            </Link>
             <h3 className="text-lg font-bold mt-4 mb-4 text-white">{content.footer.offices.branch.title}</h3>
             <ul className="space-y-2">
               {content.footer.offices.branch.locations.map((location) => (
-                <li key={location} className="text-gray-300">{location}</li>
+                <li key={location}>
+                  <Link
+                    href={`/offices/${location.toLowerCase()}`}
+                    className="text-gray-300 hover:text-white transition-colors"
+                  >
+                    {location}
+                  </Link>
+                </li>
               ))}
             </ul>
           </div>

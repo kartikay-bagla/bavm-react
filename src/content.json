@@ -121,7 +121,7 @@
           "name": "Stuti Saggi",
           "title": "Advocate",
           "image": "/images/stuti_saggi.png",
-          "content": "She has completed her law in 2011, she has completed her master’s in Energy Laws from University of Petroleum and Energy Sciences and has done her P.G. Diploma Course in Alternative Dispute Resolution (Proximate Education) from the International Centre for Alternative Dispute Resolution, NALSAR Hyderabad (2012). Stuti has more than 10 (ten) years of experience in advising clients on day-to-day litigation matters related to direct/indirect tax (including matters related to GST, Customs and Income tax). She is particularly experienced in representing clients on forums including at Tribunals and High court of Judicature at Allahabad. Primarily, her area of work relates to general ligation matters (civil) and indirect taxation and matters listed before Customs, Excise, and Service Tax Appellate Tribunal, Debt Recovery Appellate Tribunal, Income Tax Appellate Tribunals, and High Courts. She is particularly skilled in providing end to end legal advice which includes drafting writ petitions, replies and other subsequent document(s)."
+          "content": "She has completed her law in 2011, she has completed her master's in Energy Laws from University of Petroleum and Energy Sciences and has done her P.G. Diploma Course in Alternative Dispute Resolution (Proximate Education) from the International Centre for Alternative Dispute Resolution, NALSAR Hyderabad (2012). Stuti has more than 10 (ten) years of experience in advising clients on day-to-day litigation matters related to direct/indirect tax (including matters related to GST, Customs and Income tax). She is particularly experienced in representing clients on forums including at Tribunals and High court of Judicature at Prayagraj. Primarily, her area of work relates to general ligation matters (civil) and indirect taxation and matters listed before Customs, Excise, and Service Tax Appellate Tribunal, Debt Recovery Appellate Tribunal, Income Tax Appellate Tribunals, and High Courts. She is particularly skilled in providing end to end legal advice which includes drafting writ petitions, replies and other subsequent document(s)."
         },
         {
           "name": "Jwaria Kainaat",
@@ -212,7 +212,7 @@
         "title": "Branch Office",
         "locations": [
           "Kanpur",
-          "Allahbad",
+          "Prayagraj",
           "Nagpur"
         ]
       }
@@ -246,11 +246,11 @@
           "mapUrl": "https://maps.google.com/maps?q=BAVM%20Legal%20Nagpur&t=m&z=10&output=embed&iwloc=near"
         },
         {
-          "name": "Allahabad",
-          "address": "1/8 Akashpuri Colony, Ashok Nagar,<br />Muir Road near Baba Halwai Chauraha,<br />Allahabad - 211001",
+          "name": "Prayagraj",
+          "address": "1/8 Akashpuri Colony, Ashok Nagar,<br />Muir Road near Baba Halwai Chauraha,<br />Prayagraj - 211001",
           "phone": "+91 96161 10420",
-          "email": "allahabad@bavm.legal",
-          "mapUrl": "https://maps.google.com/maps?q=BAVM%20Legal%2C%20%20Allahabad%20-%20211001&t=m&z=10&output=embed&iwloc=near"
+          "email": "prayagraj@bavm.legal",
+          "mapUrl": "https://maps.google.com/maps?q=BAVM%20Legal%2C%20%20Prayagraj%20-%20211001&t=m&z=10&output=embed&iwloc=near"
         }
       ]
     }
