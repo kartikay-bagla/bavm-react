@@ -1,14 +1,17 @@
 import Link from "next/link";
 
 type NewsArticle = {
+  id: string;
   title: string;
   date: string;
   text?: string;
 };
 
 type PublicationArticle = {
+  id: string;
   title: string;
   date: string;
+  text?: string;
 };
 
 type NewsAndPublicationsSectionProps = {
@@ -39,15 +42,15 @@ export default function NewsAndPublicationsSection({ news, publications }: NewsA
             <h2 className="text-center font-serif text-2xl font-bold text-primary">{news.title}</h2>
             <div className="flex flex-1 flex-col gap-4">
               {news.articles.map((article) => (
-                <article
-                  key={article.title}
-                  className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-lg"
-                >
+                <article key={article.id} className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-lg">
                   <h3 className="mb-2 text-left font-serif text-xl font-bold text-primary">{article.title}</h3>
                   <p className="mb-3 text-sm text-gray-500">{article.date}</p>
                   {article.text && (
-                    <p className="leading-relaxed text-gray-600">{truncateText(article.text)}</p>
+                    <p className="leading-relaxed text-gray-600 mb-2">{truncateText(article.text)}</p>
                   )}
+                  <Link href={`/news/${article.id}`} className="font-bold text-primary hover:underline">
+                    Read More
+                  </Link>
                 </article>
               ))}
             </div>
@@ -62,12 +65,15 @@ export default function NewsAndPublicationsSection({ news, publications }: NewsA
             <h2 className="text-center font-serif text-2xl font-bold text-primary">{publications.title}</h2>
             <div className="flex flex-1 flex-col gap-4">
               {publications.articles.map((article) => (
-                <article
-                  key={article.title}
-                  className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-lg"
-                >
+                <article key={article.id} className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-lg">
                   <h3 className="mb-2 text-left font-serif text-xl font-bold text-primary">{article.title}</h3>
-                  <p className="text-sm text-gray-500">{article.date}</p>
+                  <p className="mb-3 text-sm text-gray-500">{article.date}</p>
+                  {article.text && (
+                    <p className="leading-relaxed text-gray-600 mb-2">{truncateText(article.text)}</p>
+                  )}
+                  <Link href={`/publications/${article.id}`} className="font-bold text-primary hover:underline">
+                    Read More
+                  </Link>
                 </article>
               ))}
             </div>

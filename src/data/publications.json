@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "Comprehensive Analysis of GST on Digital Services and E-Commerce Transactions",
+    "description": "This publication provides an in-depth analysis of the GST framework applicable to digital services and e-commerce transactions in India. The article covers the nuances of determining the place of supply, tax collection at source (TCS) requirements for e-commerce operators, and recent judicial pronouncements affecting the sector. Special emphasis is placed on the treatment of cross-border digital services and the challenges faced by marketplace operators. The publication includes practical examples and case studies to help businesses navigate complex GST compliance requirements in the digital economy.",
+    "pdf_link": "/pdfs/publications/gst-digital-services-analysis.pdf",
+    "upload_time": "2025-10-28T10:30:00Z"
+  },
+  {
+    "id": "2",
+    "title": "CESTAT Final Order: M/s Agarwal Builders - Classification of Construction Services",
+    "description": "This publication discusses the final order passed by the Customs, Excise and Service Tax Appellate Tribunal (CESTAT) in the case of M/s Agarwal Builders. The tribunal examined the classification of construction services under the service tax regime and addressed critical issues regarding valuation, exemptions, and the applicability of abatement. The judgment provides important clarifications on the distinction between works contract services and construction services. This case is particularly relevant for real estate developers and construction companies dealing with historical service tax disputes and transitional provisions under GST.",
+    "pdf_link": "/pdfs/publications/cestat-agarwal-builders.pdf",
+    "upload_time": "2025-09-28T15:00:00Z"
+  },
+  {
+    "id": "3",
+    "title": "CESTAT Final Order: Meenu Builders and Nahar Singh - Input Service Credit Eligibility",
+    "description": "This article analyzes the CESTAT's final order in the consolidated cases of Meenu Builders and Nahar Singh, which dealt with the eligibility of input service credit in the context of construction activities. The tribunal examined whether services received by builders qualify as input services under the erstwhile service tax regime. The judgment discusses the nexus requirement between input services and output services, and the extent to which common overhead services can be credited. This ruling has significant implications for ongoing litigations and provides guidance on credit utilization in the construction sector.",
+    "pdf_link": "/pdfs/publications/cestat-meenu-builders-nahar-singh.pdf",
+    "upload_time": "2025-08-09T12:15:00Z"
+  },
+  {
+    "id": "4",
+    "title": "Money Laundering Cases: Recent Trends and Compliance Strategies",
+    "description": "This comprehensive publication examines recent trends in money laundering cases under the Prevention of Money Laundering Act (PMLA) and provides practical compliance strategies for businesses. The article covers the expanded scope of predicate offenses, the role of enforcement authorities, and recent Supreme Court and High Court judgments that have shaped the interpretation of PMLA provisions. Special attention is given to the attachment and confiscation procedures, bail provisions, and the evidentiary standards applied in PMLA proceedings. The publication also discusses best practices for entities to establish robust anti-money laundering compliance frameworks.",
+    "pdf_link": "/pdfs/publications/pmla-trends-compliance.pdf",
+    "upload_time": "2025-07-22T09:45:00Z"
+  },
+  {
+    "id": "5",
+    "title": "Corporate Insolvency Resolution Process: A Practitioner's Guide to Recent Amendments",
+    "description": "This publication serves as a comprehensive guide for insolvency professionals and legal practitioners navigating the recently amended provisions of the Insolvency and Bankruptcy Code (IBC). The article discusses the timeline modifications, pre-packaged insolvency resolution process for MSMEs, and the enhanced rights of operational creditors. It also covers significant NCLAT and Supreme Court judgments that have clarified various aspects of the corporate insolvency resolution process, including the treatment of related party transactions, fraudulent trading, and the priority of claims. Practical insights on drafting resolution plans and dealing with cross-border insolvencies are included.",
+    "pdf_link": "/pdfs/publications/ibc-amendments-guide.pdf",
+    "upload_time": "2025-06-18T14:00:00Z"
+  },
+  {
+    "id": "6",
+    "title": "Environmental Law Update: NGT Orders and Compliance Requirements for Industries",
+    "description": "This publication provides a detailed overview of recent National Green Tribunal orders and their impact on industrial compliance requirements. The article covers mandatory environmental clearances, consent mechanisms, and the strengthened enforcement regime for environmental violations. Recent NGT judgments on air quality management, water pollution control, and waste management are analyzed with their practical implications for various industries. The publication also discusses the intersection of environmental law with other regulatory frameworks such as land acquisition, forest clearances, and coastal regulation zones. Compliance checklists and best practices are provided for industries to ensure adherence to environmental norms.",
+    "pdf_link": "/pdfs/publications/environmental-law-update.pdf",
+    "upload_time": "2025-05-30T11:30:00Z"
+  }
+]
